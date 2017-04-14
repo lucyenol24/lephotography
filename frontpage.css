@@ -1,0 +1,42 @@
+body {
+  color: darkred;
+  background-image: url(http://i.imgur.com/gf84oBm.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Barrio", cursive;
+}
+
+h2 {
+  position: absolute;
+  top: 47%;
+  left: 43%;
+  margin-top: -50px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Barrio", cursive;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+footer {
+  font-family: "Barrio", cursive;
+  width: 100%;
+  position: fixed;
+  color: darkred;
+  font-size: 1.5rem;
+  top: 95%;
+  bottom: 0;
+}
