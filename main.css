@@ -5,6 +5,7 @@ body {
 header {
   font-family: "Barrio", cursive;
   color: white;
+  padding-top: 0.2em;
 }
 
 h2 {
@@ -14,10 +15,19 @@ h2 {
 
 .container {
   width: 100%;
+  padding: 0.3em;
 }
 
 main {
   color: white;
-  border: red;
-  border-bottom-width: thick;
+}
+
+footer {
+  font-family: "Barrio", cursive;
+  width: 100%;
+  position: fixed;
+  color: white;
+  font-size: 1rem;
+  top: 97%;
+  bottom: 0;
 }
