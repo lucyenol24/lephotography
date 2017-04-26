@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+header {
+  font-family: "Barrio", cursive;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-family: "Barrio", cursive;
+}
+
+.container {
+  width: 100%;
+}
+
+main {
+  color: white;
+  border: red;
+  border-bottom-width: thick;
+}
