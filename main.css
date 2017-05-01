@@ -23,18 +23,20 @@ main {
 }
 
 .purple {
-  color= purple;
+  color: purple;
 }
 
-aside {
+figure {
   float: right;
   border: solid;
   border-color: white;
   border-width: thick;
+  padding: 1em;
   margin-right: 3%;
   width: 24%;
-  margin-top: -45%;
-  font-family: "Barrio", cursive; 
+  margin-top: -46%;
+  font-family: "Abel", sans-serif;
+  color: aquamarine;
 }
 
 footer {
