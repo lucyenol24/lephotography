@@ -1,0 +1,168 @@
+body {
+  background-color: black;
+  font-family: 'Barrio', cursive;
+  font-family: 'Abel', sans-serif;
+  padding: 0.3em;
+}
+
+header h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: .1em;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  overflow: hidden;
+  text-align: center;
+}
+
+nav li a {
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  display: block;
+  min-width: 10rem;
+  height: 2rem;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: aqua;
+  font-family: 'Barrio', cursive;
+  color: white;
+}
+
+nav li {
+  display: block;
+  align-content: space-around;
+  padding: 0.5em;
+}
+
+@media screen and (min-width: 660px) {
+    .menu-list > .list-item {
+        border-width: 1px black;
+    }
+    .menu-list > .list-item,
+    .menu-list > .list-item a {
+        display: inline-block;
+    }
+}
+
+section {
+  background-color: black;
+  font-family: 'Abel', sans-serif;
+  margin: 1em;
+  padding: 1em;
+  
+}
+
+section h2 {
+  font-family: 'Barrio', cursive;
+  font-size: 3em;
+  clear: both;
+  color: white;
+}
+
+aside {
+  float: right;
+  margin-right: 2.5rem;
+  padding: .5rem;
+  background-color: black;
+  color: white;
+}
+
+section {
+  float: left;
+  border: solid;
+  border-color: white;
+  border-width: thin;
+  width: 90%;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  margin: 2em;
+}
+
+
+.item-container {
+  flex-flow: row wrap-reverse;
+  width: 30%;
+  height: 35em;
+  margin: .4em;
+  padding: 0.5em;
+  border: 1px solid;
+  border-color: black;
+  float: left;
+  position: relative;
+  background: white;
+}
+
+.item-container img {
+  width: 90%;
+  align-content: center;
+  max-height: 25em;
+}
+
+.item-container p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.item-container h6 {
+  font-size: 1.3rem;
+  font-family: 'Barrio', cursive;
+  padding: 0.5em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  padding: 2rem;
+  width: 87%;
+}
+
+
+.footer ul {
+  float: left;
+  padding: 1em;
+  font-size: 1.3em;
+  text-align: center;
+  padding-top: 5rem
+}
+
+
+.footer form {
+  float: right;
+  margin: 1em;
+  padding: 1em;
+  padding-top: 3em;
+}
+
+.footer img {
+  height: 12rem;
+  float: left;
+}
+
+button {
+  font-size: 1.1em;
+  padding: 0.2em;
+  align-content: space-between;
+  font-family: 'Abel', sans-serif;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.name {
+  font-family: 'Barrio', cursive;  
+  font-size: 2em;
+}
