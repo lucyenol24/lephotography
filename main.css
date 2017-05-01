@@ -14,12 +14,27 @@ h2 {
 }
 
 .container {
-  width: 100%;
+  width: 50%;
   padding: 0.3em;
 }
 
 main {
   color: white;
+}
+
+.purple {
+  color= purple;
+}
+
+aside {
+  float: right;
+  border: solid;
+  border-color: white;
+  border-width: thick;
+  margin-right: 3%;
+  width: 24%;
+  margin-top: -45%;
+  font-family: "Barrio", cursive; 
 }
 
 footer {
@@ -30,5 +45,6 @@ footer {
   font-size: 1rem;
   top: 97%;
   bottom: 0;
-  padding: 0.3em;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
 }
