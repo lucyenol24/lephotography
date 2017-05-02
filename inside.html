@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LE Photography</title>
+    <link rel="stylesheet" type="text/css" href="photostyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <script src="https://use.fontawesome.com/9bbd57e3b8.js"></script>
+  </head>
+  
+  <body>
+  <header>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/photomain.html">Home</a></li> 
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/outside.html">Outside</a></li>
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/around.html">Around</a></li>
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/contact.html">Contact</a></li>
+      </ul>
+      <div>
+          <span class="simpleCart_total"> <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)
+      </div>
+    </nav>
+
+    
+    <h1>Inside</h1>
+  </header>
+
+  <aside>
+    <form name="scarfSort" onsubmit="filterProducts();">
+      <label>Filter By:
+        <select name="filter" id="sort">
+          <option value="">Choose One</option>
+          <option value="price" onClick="comparePrice()">Price</option>
+          <option value="name" onCLick="sortDivs()">Name</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Sort">
+    </form>
+  </aside>
+    
+<!--    EDIT SRCSET-->
+
+  <section>
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Green Meadow</h3>
+          <picture>
+            <img src="image/greenmeadow.JPG" alt="Flower Meadow" 
+            srcset="images/reversible-plaid.jpg 380w, images/reversible-plaid200.jpeg 200w"
+            sizes="(max-width: 800px) 200px, (min-width: 801px) 380px">
+          </picture>
+          <p class="description">A flower meadow near Glacier, Washington on the Skyline Divide trail.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('Green Meadow')">Add +</button>
+        <button type="button" onClick="removeItem('Green Meadow')">Remove -</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Lake Padden</h3>
+          <picture>
+            <img src="image/natalie.JPG" alt="Woman standing in lake" 
+            srcset="images/fringed-plaid.jpeg 960w, images/fringed-plaid600.jpeg 600w, images/fringed-plaid200.jpeg 200w"
+            sizes="(max-width: 800px) 200px, (max-width: 1600px) 600px, (min-width: 1601px) 960px">
+          </picture>
+          <p class="description">On a calm spring day, a woman stands peacefully in the waters of Lake Padden, Bellingham, Washington.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('Lake Padden')">Add +</button>
+        <button type="button" onClick="removeItem('Lake Padden')">Remove -</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Pink Beach</h3>
+          <picture>
+            <img src="image/lapush.JPG" alt="Pink sunset beach" 
+            srcset="images/multi-color.jpeg 960w, images/multi-color800.jpeg 800w, images/multi-color400.jpeg 400w"
+            sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 3000px">
+          </picture>
+          <p class="description">A pink and purple sunset falls upon the sandy beaches of La Push, Washington.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('Pink Beach')">Add +</button>
+        <button type="button" onClick="removeItem('Pink Beach')">Remove -</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">HeadStand</h3>
+          <picture>
+            <img src="image/lapush2.JPG" alt="Two men doing headstands on the beach" 
+            srcset="images/ombre-infinity.jpg 860w, images/ombre-infinity400.jpg 400w"
+            sizes="(max-width: 800px) 400px, (min-width: 801px) 860px">
+         </picture>
+          <p class="description">A gray day gets brighter as two men attempt to stand on their heads upon the shores of Second Beach, Washington.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('HeadStand')">Add +</button>
+        <button type="button" onClick="removeItem('HeadStand')">Remove -</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Winter Weather</h3>
+          <picture>
+            <img src="image/winter.JPG" alt="A dam in the snow" 
+            srcset="images/ombre-infinity.jpg 860w, images/ombre-infinity400.jpg 400w"
+            sizes="(max-width: 800px) 400px, (min-width: 801px) 860px">
+         </picture>
+          <p class="description">A snowy day adventure ends at a mysterious dam-like building covered in snow and surrounded my mountains.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('Winter Weather')">Add +</button>
+        <button type="button" onClick="removeItem('Winter Weather')">Remove -</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Blue</h3>
+          <picture>
+            <img src="image/blue.JPG" alt="Blue sand dollar" 
+            srcset="images/twill.jpg 1024w, images/twill800.jpg 800w, images/twill400.jpeg 400w"
+            sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1024px">
+         </picture>
+          <p class="description">A blue sand dollar contrasted against the gray sands of La Push, Washington.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('Blue')">Add +</button>
+        <button type="button" onClick="removeItem('Blue')">Remove -</button>
+      </div>
+    </div>
+  
+  <footer>
+    <details>
+       <summary> &copy; Lucy E Nolan 2017 
+      <a href="https://www.linkedin.com/in/lucy-nolan-abb9ab30"><i class="fa fa-linkedin-square"
+       aria-hidden="true"></i></a>
+       <a href="https://github.com/lucyenol24"><i class="fa fa-github"
+       aria-hidden="true"></i></a>
+      </summary>
+    </details>
+  </footer>
+    
+  </body>
+    
+</html>
