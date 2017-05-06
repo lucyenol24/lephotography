@@ -1,49 +1,49 @@
 var products = [
   {
-    "name": "Reversible",
-    "price": 26.99,
-    "description": "Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.",
+    "name": "Green Meadow",
+    "price": 29.99,
+    "description": "A flower meadow near Glacier, Washington on the Skyline Divide trail",
     "imageTitle": "reversible-plaid.jpg",
     "imageSet": "images/reversible-plaid.jpg 583w, images/reversible-plaid200.jpg 200w",
     "imageSizes": "(max-width: 400px) 200px, (max-width: 800px) 583px",
     
   },
   {
-    "name": "Cable",
-    "price": 49.99,
-    "description": "Warm yourself with this women's natural cable knit scarf, crafted from 100% Merino wool. Imported.",
+    "name": "Lake Padden",
+    "price": 29.99,
+    "description": "On a calm spring day, a woman stands peacefully in the waters of Lake Padden, Bellingham, Washington.",
     "imageTitle": "wool-cable.jpeg",
     "imageSet": "images/wool-cable.jpeg 300w, images/wool-cable150.jpeg",
     "imageSizes": "(max-width: 400px) 150px, (max-width: 800px) 300px"
   },
   {
-    "name": "Northern",
+    "name": "Pink Beach",
     "price": 29.99,
-    "description": "Handmade by women in Agra, sales provide medical and educational support in this remote area of India. Crinkly 100% cotton.",
+    "description": "A pink and purple sunset falls upon the sandy beaches of La Push, Washington.",
     "imageTitle": "northern-lights.jpg",
     "imageSet": "images/northern-lights.jpg 600w, images/northern-lights.jpg 300jpg",
     "imageSizes": "(max-width: 400px) 300px, (max-width: 800px) 600px"
   },
   {
-    "name": "Ombre",
-    "price": 11.99,
-    "description": "A dip-dye effect adds color and dimension to a cozy infinity scarf featuring a soft, chunky knit. 100% acrylic.",
+    "name": "HeadStand",
+    "price": 29.99,
+    "description": "A gray day gets brighter as two men attempt to stand on their heads upon the shores of Second Beach, Washington.",
     "imageTitle": "ombre-infinity.jpg",
     "imageSet": "images/ombre-infinity.jpg 860w, images/ombre-infinity400.jpg 400w",
     "imageSizes": "(max-width: 400px) 400px, (max-width: 1600px) 860px"
   },
   {
-    "name": "Fringed",
-    "price": 18.99,
-    "description": "Generously sized, extra soft and featuring a dazzling fringe, this scarf is rendered in a versatile gray, black and white plaid. Expertly beat the cold with style. 100% acrylic.",
+    "name": "Winter Weather",
+    "price": 29.99,
+    "description": "A snowy day adventure ends at a mysterious dam-like building covered in snow and surrounded my mountains.",
     "imageTitle": "fringed-plaid.jpeg",
     "imageSet": "images/fringed-plaid.jpeg 960w, images/fringed-plaid600.jpeg 600w, images/fringed-plaid200.jpeg 200w",
     "imagesSizes": "(max-width: 400px) 200px, (max-width: 800px) 600px, (max-width: 1600px) 960px"  
   },
   {
-    "name": "Multi",
-    "price": 22.99,
-    "description": "The Who What Wear Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic",
+    "name": "Blue",
+    "price": 29.99,
+    "description": "A blue sand dollar contrasted against the gray sands of La Push, Washington.",
     "imageTitle": "multi-color.jpeg",
     "imageSet": "images/multi-color.jpeg 3000x, images/multi-color400.jpeg 400w, images/multi-color800.jpeg 800w",
     "imageSizes": "(max-width: 400px) 400px, (max-width: 800) 800px, (max-width: 1600px) 3000px"
