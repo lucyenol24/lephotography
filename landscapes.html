@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LE Photography</title>
+    <link rel="stylesheet" type="text/css" href="photostyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <script src="https://use.fontawesome.com/9bbd57e3b8.js"></script>
+  </head>
+  
+  <body>
+  <header>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/photomain.html">Home</a></li> 
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/stills.html">Stills</a></li>
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/personal.html">Personal</a></li>
+        <li class="list-item"><a href="https://lucyenol24.github.io/lephotography/contact.html">Contact</a></li>
+      </ul>
+      <div>
+          <span class="simpleCart_total"> <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)
+      </div>
+    </nav>
+
+    
+    <h1>Landscapes</h1>
+  </header>
+
+  <section>
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Green Forest</h3>
+          <picture>
+            <img src="image/l_forest.JPG" alt="Green Forest">
+          </picture>
+          <p class="description">A dense green forest in Western Washington.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Island in the Arctic Sea</h3>
+          <picture>
+            <img src="image/l_island.jpg" alt="Sea Island">
+          </picture>
+          <p class="description">Surrounded by crashing waves and 50mph winds is the first island colonized by the Icelandic people.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Hawaiian Jungle</h3>
+          <picture>
+            <img src="image/l_kauai.JPG" alt="Jungle in Kauai">
+          </picture>
+          <p class="description">A glimpse of the vast jungle on the Hawaiian island of Kauai.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Sunset on the Coast</h3>
+          <picture>
+            <img src="image/l_lapush.JPG" alt="Washington Beach">
+          </picture>
+          <p class="description">A peaceful night on the beaches of the Washington peninsula.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">OBX</h3>
+          <picture>
+            <img src="image/l_obx.JPG" alt="Outer Banks NC">
+          </picture>
+          <p class="description">Sunset falls upon the sandy beaches in the Outer Banks, North Carolina.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
+      </div>
+    </div>
+    
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">The Bridge</h3>
+          <picture>
+            <img src="image/l_sfbridge.JPG" alt="San Francisco Bridge">
+          </picture>
+          <p class="description">The iconic red bridge in San Francisco, California.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
+      </div>
+    </div>
+    
+<!--
+    <div class="item-container">
+      <div class="item">
+        <h3 value="name">Blue</h3>
+          <picture>
+            <img src="image/blue.JPG" alt="Blue sand dollar" 
+            srcset="images/twill.jpg 1024w, images/twill800.jpg 800w, images/twill400.jpeg 400w"
+            sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1024px">
+         </picture>
+          <p class="description">A blue sand dollar contrasted against the gray sands of La Push, Washington.</p>
+          <h6 class="price">$29.99</h6>
+        <button type="button" onClick="addItem('Blue')">Add +</button>
+        <button type="button" onClick="removeItem('Blue')">Remove -</button>
+      </div>
+    </div>
+-->
+  
+  <footer>
+    <details>
+       <summary> &copy; Lucy E Nolan 2017 
+      <a href="https://www.linkedin.com/in/lucy-nolan-abb9ab30"><i class="fa fa-linkedin-square"
+       aria-hidden="true"></i></a>
+       <a href="https://github.com/lucyenol24"><i class="fa fa-github"
+       aria-hidden="true"></i></a>
+      </summary>
+    </details>
+  </footer>
+    
+  </body>
+    
+</html>
