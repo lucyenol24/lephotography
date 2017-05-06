@@ -25,116 +25,76 @@
     </nav>
 
     
-    <h1>Inside</h1>
+    <h1>Landscapes</h1>
   </header>
-
-  <aside>
-    <form name="photoSort" onsubmit="filterProducts();">
-      <label>Filter By:
-        <select name="filter" id="sort">
-          <option value="">Choose One</option>
-          <option value="price" onClick="comparePrice()">Price</option>
-          <option value="name" onCLick="sortDivs()">Name</option>
-        </select>
-      </label>
-
-      <input type="submit" value="Sort">
-    </form>
-  </aside>
-    
-<!--    EDIT SRCSET-->
 
   <section>
     <div class="item-container">
       <div class="item">
-        <h3 value="name">Green Meadow</h3>
+        <h3 value="name">Green Forest</h3>
           <picture>
-            <img src="image/greenmeadow.JPG" alt="Flower Meadow" 
-            srcset="images/reversible-plaid.jpg 380w, images/reversible-plaid200.jpeg 200w"
-            sizes="(max-width: 800px) 200px, (min-width: 801px) 380px">
+            <img src="image/l_forest.JPG" alt="Green Forest">
           </picture>
-          <p class="description">A flower meadow near Glacier, Washington on the Skyline Divide trail.</p>
-          <h6 class="price">$29.99</h6>
-        <button type="button" onClick="addItem('Green Meadow')">Add +</button>
-        <button type="button" onClick="removeItem('Green Meadow')">Remove -</button>
+          <p class="description">A dense green forest in Western Washington.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
       </div>
     </div>
     
     <div class="item-container">
       <div class="item">
-        <h3 value="name">Lake Padden</h3>
+        <h3 value="name">Island in the Arctic Sea</h3>
           <picture>
-            <img src="image/natalie.JPG" alt="Woman standing in lake" 
-            srcset="images/fringed-plaid.jpeg 960w, images/fringed-plaid600.jpeg 600w, images/fringed-plaid200.jpeg 200w"
-            sizes="(max-width: 800px) 200px, (max-width: 1600px) 600px, (min-width: 1601px) 960px">
+            <img src="image/l_island.jpg" alt="Sea Island">
           </picture>
-          <p class="description">On a calm spring day, a woman stands peacefully in the waters of Lake Padden, Bellingham, Washington.</p>
-          <h6 class="price">$29.99</h6>
-        <button type="button" onClick="addItem('Lake Padden')">Add +</button>
-        <button type="button" onClick="removeItem('Lake Padden')">Remove -</button>
+          <p class="description">Surrounded by crashing waves and 50mph winds is the first island colonized by the Icelandic people.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
       </div>
     </div>
     
     <div class="item-container">
       <div class="item">
-        <h3 value="name">Pink Beach</h3>
+        <h3 value="name">Hawaiian Jungle</h3>
           <picture>
-            <img src="image/lapush.JPG" alt="Pink sunset beach" 
-            srcset="images/multi-color.jpeg 960w, images/multi-color800.jpeg 800w, images/multi-color400.jpeg 400w"
-            sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 3000px">
+            <img src="image/l_kauai.JPG" alt="Jungle in Kauai">
           </picture>
-          <p class="description">A pink and purple sunset falls upon the sandy beaches of La Push, Washington.</p>
-          <h6 class="price">$29.99</h6>
-        <button type="button" onClick="addItem('Pink Beach')">Add +</button>
-        <button type="button" onClick="removeItem('Pink Beach')">Remove -</button>
+          <p class="description">A glimpse of the vast jungle on the Hawaiian island of Kauai.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
       </div>
     </div>
     
     <div class="item-container">
       <div class="item">
-        <h3 value="name">HeadStand</h3>
+        <h3 value="name">Sunset on the Coast</h3>
           <picture>
-            <img src="image/lapush2.JPG" alt="Two men doing headstands on the beach" 
-            srcset="images/ombre-infinity.jpg 860w, images/ombre-infinity400.jpg 400w"
-            sizes="(max-width: 800px) 400px, (min-width: 801px) 860px">
-         </picture>
-          <p class="description">A gray day gets brighter as two men attempt to stand on their heads upon the shores of Second Beach, Washington.</p>
-          <h6 class="price">$29.99</h6>
-        <button type="button" onClick="addItem('HeadStand')">Add +</button>
-        <button type="button" onClick="removeItem('HeadStand')">Remove -</button>
+            <img src="image/l_lapush.JPG" alt="Washington Beach">
+          </picture>
+          <p class="description">A peaceful night on the beaches of the Washington peninsula.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
       </div>
     </div>
     
     <div class="item-container">
       <div class="item">
-        <h3 value="name">Winter Weather</h3>
+        <h3 value="name">OBX</h3>
           <picture>
-            <img src="image/winter.JPG" alt="A dam in the snow" 
-            srcset="images/ombre-infinity.jpg 860w, images/ombre-infinity400.jpg 400w"
-            sizes="(max-width: 800px) 400px, (min-width: 801px) 860px">
-         </picture>
-          <p class="description">A snowy day adventure ends at a mysterious dam-like building covered in snow and surrounded my mountains.</p>
-          <h6 class="price">$29.99</h6>
-        <button type="button" onClick="addItem('Winter Weather')">Add +</button>
-        <button type="button" onClick="removeItem('Winter Weather')">Remove -</button>
+            <img src="image/l_obx.JPG" alt="Outer Banks NC">
+          </picture>
+          <p class="description">Sunset falls upon the sandy beaches in the Outer Banks, North Carolina.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
       </div>
     </div>
     
     <div class="item-container">
       <div class="item">
-        <h3 value="name">Blue</h3>
+        <h3 value="name">The Bridge</h3>
           <picture>
-            <img src="image/blue.JPG" alt="Blue sand dollar" 
-            srcset="images/twill.jpg 1024w, images/twill800.jpg 800w, images/twill400.jpeg 400w"
-            sizes="(max-width: 800px) 400px, (max-width: 1600px) 800px, (min-width: 1601px) 1024px">
-         </picture>
-          <p class="description">A blue sand dollar contrasted against the gray sands of La Push, Washington.</p>
-          <h6 class="price">$29.99</h6>
-        <button type="button" onClick="addItem('Blue')">Add +</button>
-        <button type="button" onClick="removeItem('Blue')">Remove -</button>
+            <img src="image/l_sfbridge.JPG" alt="San Francisco Bridge">
+          </picture>
+          <p class="description">The iconic red bridge in San Francisco, California.</p>
+        <button type="button" onClick="addItem('Green Forest')">Enlarge</button>
       </div>
     </div>
-  
+    
   <footer>
     <details>
        <summary> &copy; Lucy E Nolan 2017 
