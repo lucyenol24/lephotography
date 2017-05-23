@@ -10,38 +10,18 @@
     <script src="https://use.fontawesome.com/9bbd57e3b8.js"></script>
   </head>
   <body>
-  <main>
-    <header>
-      <h1>Contact</h1>
-    </header>
-    <table>
-      <tr>
-        <td>Name:</td>
-        <td><input type="text"></td>
-        <td><div class="value"></div></td>
-      </tr>
-      <tr>
-        <td>Email:</td>
-        <td><input type="email"></td>
-        <td><div class="value"></div></td>
-      </tr>
-      <tr>
-        <td>Comments:</td>
-        <td><input type="text"></td>
-        <td><div class="value"></div></td>
-      </tr>
-      <tr>
-        <td>How would you rate this site:</td>
-        <td>
-          <input type="radio" name="radio_1" value="Looks great!">Looks great!<br>
-          <input type="radio" name="radio_1" value="It's okay">It's okay<br>
-          <input type="radio" name="radio_1" value="Needs work!">Needs work!
-        </td>
-        <td><div class="value"></div></td>
-      </tr>
-      <td><input type="submit" value="Submit"</td>
-    </table>
-  </main>
+    <main>
+      <header>
+        <h1>Contact</h1>
+      </header>
+      <form>
+        <select id="location" name="location">
+          <option value="default">Choose One:</option>
+          <option value="Kirkland WA">Kirkland</option>
+        </select>
+      </form>
+      <div id="map"></div>
+    </main>
     <footer>
     <details>
        <summary> &copy; Lucy E Nolan 2017 
@@ -53,7 +33,9 @@
     </details>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDswmzBX9os8U9FZsCsjjhDoxXDBL70zPE&callback=initMap"
+    async defer></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
     
